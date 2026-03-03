@@ -80,10 +80,17 @@ function App() {
             {/* Hero Section */}
             <section id="home" className="hero">
               <div className="hero-video-container">
-                <video autoPlay loop muted playsInline className="hero-video">
-                  <source src="./hero-video.mp4" type="video/mp4" />
-                  Your browser does not support the video tag.
-                </video>
+                <div className="hero-bg" style={{
+                  backgroundImage: `url('https://res.cloudinary.com/dnitpu7mp/image/upload/v1772518967/hero-bg_xrderc.jpg')`,
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center',
+                  width: '100%',
+                  height: '100%',
+                  position: 'absolute',
+                  top: 0,
+                  left: 0,
+                  zIndex: -1
+                }}></div>
                 <div className="hero-overlay"></div>
               </div>
               <div className="container hero-content">
