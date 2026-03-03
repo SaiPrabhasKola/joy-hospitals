@@ -201,7 +201,7 @@ function App() {
             <h3>Contact Us</h3>
             <div className="contact-item">
               <Phone size={18} />
-              <span>+91 12345 67890</span>
+              <span>+91 903030 33 20/50</span>
             </div>
             <div className="contact-item">
               <Mail size={18} />
@@ -209,7 +209,7 @@ function App() {
             </div>
             <div className="contact-item">
               <MapPin size={18} />
-              <span>Vile Parle East, Mumbai</span>
+              <span>R.L. Nagar, Rampally, Keesara Mandal, Medchal Malkajgiri Dist, Hyderabad - 501301</span>
             </div>
           </div>
           <div className="footer-col">
