@@ -51,7 +51,7 @@ function App() {
               </div>
             </div>
             <a href="#testimonials" onClick={() => navigateTo('home')}>Testimonials</a>
-            <a href="#contact" className="btn-primary" onClick={() => navigateTo('home')}>Contact Us</a>
+            <a href="https://wa.me/919030303320" target="_blank" rel="noopener noreferrer" className="btn-primary">Contact Us</a>
           </div>
           <button className="mobile-menu-btn" onClick={toggleMenu}>
             {isMenuOpen ? <X /> : <Menu />}
@@ -67,7 +67,7 @@ function App() {
             <a href="#" onClick={() => navigateTo('new-born-care')}>New Born Care</a>
             <a href="#" onClick={() => navigateTo('menopause')}>Menopause</a>
             <a href="#testimonials" onClick={() => navigateTo('home')}>Testimonials</a>
-            <a href="#contact" onClick={() => navigateTo('home')}>Contact Us</a>
+            <a href="https://wa.me/919030303320" target="_blank" rel="noopener noreferrer">Contact Us</a>
           </div>
         )}
       </nav>
@@ -102,21 +102,21 @@ function App() {
                 <div className="hero-overlay"></div>
               </div>
               <div className="container hero-content">
-                <h2>Her Care Clinic</h2>
+                <h2>Women Care Clinic</h2>
                 <h1>A One-Stop Institution To Address All Female-Related Ailments</h1>
-                <p>Leading the future of care with compassion and expertise.</p>
+                <p>Dr. Y. Assuntha Reddy | MBBS | DNB (Gold Medalist) <br /> Gynaecologist & Surgeon.</p>
                 <div className="hero-buttons">
-                  <a href="#contact" className="btn-primary">Book Appointment</a>
+                  <a href="https://wa.me/919030303320" target="_blank" rel="noopener noreferrer" className="btn-primary">Book Appointment</a>
                   <a href="#services" className="btn-secondary">Our Services</a>
                 </div>
               </div>
             </section>
 
-            {/* Why Her Care */}
+            {/* Why Women Care */}
             <section id="about" className="section bg-light">
               <div className="container">
                 <div className="section-header">
-                  <h2>Why Her Care?</h2>
+                  <h2>Why Women Care?</h2>
                   <div className="divider"></div>
                 </div>
                 <div className="features-grid">
@@ -167,11 +167,11 @@ function App() {
                 <div className="testimonials-grid">
                   <TestimonialCard
                     name="Bhakti Ail"
-                    text="Dr. Monica patiently listens to your problem and takes care of even the minutest details. Really detail oriented and delights her patients with her calm and caring attitude."
+                    text="Dr. Assuntha patiently listens to your problem and takes care of even the minutest details. Really detail oriented and delights her patients with her calm and caring attitude."
                   />
                   <TestimonialCard
                     name="Dr. Komal Keni"
-                    text="She is one of the best gyneacs that I can recommend. Thank you Dr Monica for taking care of my sister's problem so sensitively and carefully."
+                    text="She is one of the best gyneacs that I can recommend. Thank you Dr Assuntha for taking care of my sister's problem so sensitively and carefully."
                   />
                   <TestimonialCard
                     name="Baijnath Prasad Sahu"
@@ -201,11 +201,7 @@ function App() {
             <h3>Contact Us</h3>
             <div className="contact-item">
               <Phone size={18} />
-              <span>+91 903030 33 20/50</span>
-            </div>
-            <div className="contact-item">
-              <Mail size={18} />
-              <span>info@hercareclinic.com</span>
+              <a href="https://wa.me/919030303320" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'none' }}>+91 903030 33 20/50</a>
             </div>
             <div className="contact-item">
               <MapPin size={18} />
@@ -231,7 +227,7 @@ function App() {
           </div>
         </div>
         <div className="footer-bottom">
-          <p>&copy; {new Date().getFullYear()} Dr. Monika Agrawal. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Dr. Y. Assuntha Reddy. All rights reserved.</p>
         </div>
       </footer>
     </div >
